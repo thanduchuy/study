@@ -1,0 +1,42 @@
+<header [ngStyle]="myStyles">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-1 header_icon">
+        <img src="/assets/img/image_1.png" alt="" srcset="" />
+      </div>
+      <div class="col-xl-7 header_nav">
+        <ul class="row">
+          <li class="col-xl-3 d-flex">
+            <i class="fas fa-chart-bar"></i>
+            <p>Dashboard</p>
+          </li>
+          <li class="col-xl-3 d-flex">
+            <i class="fas fa-graduation-cap"></i>
+            <p>Students</p>
+          </li>
+          <li class="col-xl-3 d-flex">
+            <i class="fas fa-user-friends"></i>
+            <p>Parents</p>
+          </li>
+          <li class="col-xl-3 d-flex">
+            <i class="fas fa-user-tie"></i>
+            <p>Tutor</p>
+          </li>
+        </ul>
+      </div>
+      <div class="col-xl-4 header_form ">
+        <div class="row">
+          <div class="col-xl-8 form d-flex">
+            <app-input place="Search..."></app-input>
+            <app-button></app-button>
+          </div>
+          <div class="col-xl-4 alert d-flex">
+            <i class="far fa-bell"></i>
+            <span>3</span>
+            <i class="fas fa-user"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>

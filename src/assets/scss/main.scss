@@ -1,0 +1,12 @@
+@import "./base/module";
+@import "./components/module";
+@import "./layouts/module";
+@import "./pages/module";
+@import "./variable.scss";
+* {
+  color: $black;
+  font-family: "Roboto", sans-serif;
+}
+ul {
+  list-style: none;
+}

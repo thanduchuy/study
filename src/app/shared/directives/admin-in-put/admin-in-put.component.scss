@@ -1,0 +1,24 @@
+.mat-form-field-appearance-legacy {
+  padding: 0.4375em 0;
+  width: 300pt;
+  height: 50pt;
+  margin: 0 auto;
+}
+label {
+  margin-top: 50px;
+}
+input {
+  height: 48pt;
+  border: 3pt rgba(31, 84, 195, 0.2) solid;
+  padding-left: 20px;
+  font-size: 16pt;
+}
+::ng-deep .mat-form-field-underline {
+  display: none;
+}
+::ng-deep .mat-form-field-label {
+  margin: 20px;
+  span {
+    font-size: 16pt;
+  }
+}

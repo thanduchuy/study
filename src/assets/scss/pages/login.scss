@@ -1,0 +1,54 @@
+@import "../variable.scss";
+.Login_body {
+  height: 100vh;
+  margin-right: 0;
+  margin-left: 0;
+  .background_admin {
+    background: center no-repeat;
+    background-size: cover;
+    background-image: url("/assets/img/home-5_2x.png");
+  }
+  .form_admin {
+    margin: auto;
+    .form_login_logo {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 10pt;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      app-admin-in-put {
+        width: 300pt;
+        margin: 5pt 0;
+      }
+      a {
+        text-decoration: none;
+      }
+      .check {
+        width: 300pt;
+        display: flex;
+        justify-content: flex-start;
+        margin: 20pt 0;
+      }
+      .home_link {
+        width: 300pt;
+        display: flex;
+        justify-content: flex-start;
+        font-size: 16pt;
+        opacity: 0.7;
+        margin-top: 34pt;
+        i {
+          font-size: 18pt;
+          color: $blue;
+          margin-right: 10pt;
+        }
+        span {
+          color: $blue;
+        }
+      }
+    }
+  }
+}
